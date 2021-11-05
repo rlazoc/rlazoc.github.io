@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <title>Installing and using VMware ESXi</title>
+    <link rel="stylesheet" type="text/css" href="../css/blog.css" />
+    <meta charset="utf-8" />
+    <link rel="icon" href="./src/favicon.png" type="image/png" />
+  </head>
+  <body id="indiv">
+    <h1 id="installing-and-using-vmware-esxi.html">
+      <a href="../blog/installing-and-using-vmware-esxi.html"
+        >Installing and using VMWare ESXi</a
+      >
+    </h1>
+    <small
+      >[<a href="../blog.html#installing-and-using-vmware-esxi">Back to blog</a
+      >]<a href="installing-and-using-vmware-esxi.html"></a
+    ></small>
+    <p>
+      In this post, I talk about how to install VMware ESXi and its usages. ESXi
+      is an hypervisor provided by VMware to deploy and manage virtual machines.
+    </p>
+    <p>
+      Essentially, it works like Hyper-V (Windows) or KVM (Linux). Here is the
+      official description from VMWare's website: <br />
+      <i
+        >"VMware ESXi formerly known as ESX is a bare metal hypervisor that
+        installs easily on to your server and partitions it into multiple
+        virtual machines."</i
+      >
+      <br />
+    </p>
+    <p>
+      I think learning virtualization tools such as ESXi is necessary to get
+      used to the technology that may be used in an enterprise setting. I will
+      go over what is and its place among the vast options there are in the
+      world of hypervisors.
+    </p>
+    <p>
+      Let's go over what is a hypervisor. You can think of a hypervisor as a
+      program that lets you create virtual machines. Think VirtualBox or VMWare
+      Workstation. But the difference between those hypervisors I stated and
+      ESXi is that ESXi is considered a type-1 "bare-metal" hypervisor and the
+      software-like ones are type-2 "hosted" hypervisors.
+    </p>
+
+    <p>
+      These type-1 hypervisors such as ESXi run on the kernel, which is the
+      closest thing that communicates with the low-level hardware.
+    </p>
+
+    <p>
+      The question is why we would need bare-metal hypervisors if hosted ones
+      are much simpler to set up and use?
+    </p>
+    <p>
+      There are a number of reasons. But the main ones are that since type-1
+      hypervisors are so close to the hardware level, their access is much more
+      secure and often faster for production-ready environments.
+    </p>
+    <p>
+      VMWare ESXi is free to download. (As of writing this, the hypervisor is at
+      version 7.0). You can visit their
+      <a
+        target="_blank"
+        href="https://customerconnect.vmware.com/en/web/vmware/evalcenter?p=free-esxi7"
+        >website</a
+      >
+      to download it after you have made an account, which is also free.
+    </p>
+    <p>
+      Alternatively, you can use their hosted vSphere labs. But this post is
+      going to focus on manually installing and configuring it on our machine.
+    </p>
+    <p>
+      After you have downloaded the ESXi ISO from their website, you need a way
+      to boot into it from your machine. I used Workstation but you can create a
+      bootable flash drive and load the ISO from it instead.
+    </p>
+    <p>
+      At startup, you will have to wait for all the files to load and install.
+      If this went through nicely, you will be greeted with a message to go over
+      the setup. These are settings like layout, password, and installing on a
+      disk. Once the installation has finished, the server will prompt you for a
+      reboot. Restarting the machine displays a similar screen seen in the
+      beginning but now a new message shows where you can manage the host and
+      use ESXi either through a DHCP or static-assigned IP address. Either one
+      works, so load up a browser and type the designated address where you will
+      see a login screen. The default username is <code>root</code> and the
+      password is the one you made while setting up ESXi. You are now in the
+      host. Keep in mind, ESXi in this state is in evaluation mode and expires
+      in a limited time. But until then, you are free to explore the hypervisor.
+    </p>
+    <p>
+      I may make future posts going in-depth into parts of the ESXi console, but
+      for now have fun looking around the docs once you set it up :)
+    </p>
+  </body>
+  <footer>
+    by <strong><a href="../index.html">Roxana Lazo-Chavez</a></strong>
+  </footer>
+</html>
