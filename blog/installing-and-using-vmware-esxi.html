@@ -2,22 +2,32 @@
   <head>
     <title>Installing and using VMware ESXi</title>
     <link rel="stylesheet" type="text/css" href="../css/blog.css" />
+    <link rel="stylesheet" href="../highlight/styles/atom-one-dark.min.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <meta charset="utf-8" />
-    <link rel="icon" href="./src/favicon.png" type="image/png" />
+    <meta name="robots"content="nofollow"></meta>
+      <link
+      rel="icon"
+      href="./src/favicon.png"
+      type="image/png"
+    />
   </head>
   <body id="indiv">
-    <h1 id="installing-and-using-vmware-esxi.html">
-      <a href="../blog/installing-and-using-vmware-esxi.html"
-        >Installing and using VMWare ESXi</a
-      >
-    </h1>
+    <span class="label">vmware</span>
+
+    <h1 id="installing-and-using-vmware-esxi.html"></h1>
+    <h1>Installing and using VMware ESXi</h1>
+
     <small
       >[<a href="../blog.html#installing-and-using-vmware-esxi">Back to blog</a
       >]<a href="installing-and-using-vmware-esxi.html"></a
     ></small>
     <p>
-      In this post, I talk about how to install VMware ESXi and its usages. ESXi
-      is an hypervisor provided by VMware to deploy and manage virtual machines.
+      Let's talk about how to install VMware ESXi and its usages. ESXi is an
+      hypervisor provided by VMware to deploy and manage virtual machines.
     </p>
     <p>
       Essentially, it works like Hyper-V (Windows) or KVM (Linux). Here is the
@@ -30,10 +40,10 @@
       <br />
     </p>
     <p>
-      I think learning virtualization tools such as ESXi is necessary to get
-      used to the technology that may be used in an enterprise setting. I will
-      go over what is and its place among the vast options there are in the
-      world of hypervisors.
+      Getting the chance to learn virtualization tools such as ESXi is nice in
+      how accessible it is, and to get used to the technology that may be used
+      in an enterprise setting among others. Now, what is its place among the
+      vast options there are in the world of hypervisors?
     </p>
     <p>
       Let's go over what is a hypervisor. You can think of a hypervisor as a
@@ -76,26 +86,51 @@
       to boot into it from your machine. I used Workstation but you can create a
       bootable flash drive and load the ISO from it instead.
     </p>
+    <h2>Installing</h2>
     <p>
       At startup, you will have to wait for all the files to load and install.
       If this went through nicely, you will be greeted with a message to go over
       the setup. These are settings like layout, password, and installing on a
-      disk. Once the installation has finished, the server will prompt you for a
-      reboot. Restarting the machine displays a similar screen seen in the
-      beginning but now a new message shows where you can manage the host and
-      use ESXi either through a DHCP or static-assigned IP address. Either one
-      works, so load up a browser and type the designated address where you will
-      see a login screen. The default username is <code>root</code> and the
-      password is the one you made while setting up ESXi. You are now in the
-      host. Keep in mind, ESXi in this state is in evaluation mode and expires
-      in a limited time. But until then, you are free to explore the hypervisor.
+      disk.
     </p>
+    <p>
+      Once the installation has finished, the server will prompt you for a
+      reboot.
+    </p>
+    <p>
+      Restarting the machine displays a similar screen seen in the beginning but
+      now a new message shows where you can manage the host.
+    </p>
+    <p>
+      You can manage ESXi either through a DHCP or static-assigned IP address.
+      Either one works, so load up a browser and type the designated address
+      where you will see a login screen.
+    </p>
+    <p>
+      The default username is <code>root</code> and the password is the one you
+      made while setting up ESXi. You are now in the host.
+    </p>
+    <p>
+      Keep in mind, ESXi in this state is in evaluation mode and eventually you
+      will need to enter a license key to continue to use the free version. But
+      until then, you are free to explore the hypervisor.
+    </p>
+
     <p>
       I may make future posts going in-depth into parts of the ESXi console, but
       for now have fun looking around the docs once you set it up :)
     </p>
+
+    <footer>
+      by <strong><a href="../index.html">Roxana Lazo</a></strong>
+      <small>Fri, 29 Oct 2021</small>
+    </footer>
+
+    <script src="../js/code-badge.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+    <script src="../highlight/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
   </body>
-  <footer>
-    by <strong><a href="../index.html">Roxana Lazo-Chavez</a></strong>
-  </footer>
 </html>
