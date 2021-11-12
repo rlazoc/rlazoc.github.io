@@ -10,6 +10,74 @@
 <atom:link href="rlazoc.github.io/rss.xml" rel="self" type="application/rss+xml" />
 
 <!-- LB -->
+<item>
+<title>Windows 11 first impressions</title>
+<guid>rlazoc.github.io/blog.html#windows-11-first-impressions</guid>
+<pubDate>Thu, 11 Nov 2021 23:55:01 CST</pubDate>
+<description><![CDATA[
+      <p>Windows seems to have made a major overhaul in their client line of operating systems (NT) including a new look, new feel, and incorporating elements that seem to cater to a wider demographic that makes you wonder what they had in store for their hardy, technical users.</p>
+<p>Here, I take a not-so-detailed first look into the successor for Windows 10 and see if it holds up to what I think makes a good experience for a system I would want to use on my machine. I will try to be as non-biased about it, even though I currently use a windows machine as my main workstation. Of course, all thoughts are my own, and no disrespect towards Microsoft for the negative opinions I have of their products. Microsoft is top-dog in this space, yet there will always be ups and downs to any product targeted to a mass audience. With that in mind, let&#39;s take a look at what Windows 11 has to offer for its addition to the NT family.</p>
+<p>I will go over aspects on user design and interface, user experience, application focus, to more technical aspects such as performance changes, developer tools, etc. Again, nothing too detailed, just enough to write what sticks out to me most for the time being.</p>
+<h2 id="pre-thoughts">Pre-thoughts</h2>
+<p>To start, I have mainly used Windows as my main operating system over the years, only having used a 2018 MacBook to learn Mac OS X and dabbled a small bit with Linux, mainly Ubuntu. So, my view comes from someone who has most experienced their OS of choice to be Windows.</p>
+<p>So, I give the successor of Windows 10 a shot despite it being over a month since public release at this time. I feel like I am missing out on something as a Windows user myself, despite having no intentions of upgrading at the moment, to try and give my thoughts on what seems like a precursor to a major shift that Windows wants to take with their main line of operating systems.</p>
+<p>I actually may plan on using it for work and am curious to see what changes were made, the big &quot;updates&quot; so to speak, and how as a personal user feel about the system as a whole.</p>
+<p>I have been a Windows user for a long time. The thing I like about this OS the most is its usability, accessibility, and reliability. Not to say that its competitors are not, far from it actually. It&#39;s just that it&#39;s the staple OS that virtually anyone that has dealt with computers knows. I mean, Microsoft stays at the top with Windows holding about three quarters of the <a href="https://gs.statcounter.com/os-market-share/desktop/worldwide">market share</a>. As to why I use Windows: I am used to it the most, it gets <del>my</del> the job done, and overall it has the most  industry support so we use what makes life simpler for us. (For the most part).</p>
+<p>I wrote this as a way to capture my thoughts as I had not done this with previous editions of Windows. I have used XP, Vista, 7, 8, 8.1, 10, and now its time to add 11 to this list.</p>
+<p>My initial thoughts were that there was not going to be any substantial changes in terms of user experience. And by that I mean, I would still be able to make my way around like usual despite the interface change. I didn&#39;t look at many of the spotlight updates that Microsoft put out. I just knew about the talk surrounding UI changes, which I liked despite it having more of a &quot;Mac&quot; look now. Or Chrome OS? (Of which I have very little experience with, maybe some day I will get a machine with it?)</p>
+<p>So, because I don&#39;t want to update my whole system to have a newly configured OS, I booted up a virtual machine instead.</p>
+<h2 id="the-beginning">The beginning</h2>
+<p>What I would like the most for the Windows line of operating systems is more support for customization like you can with open-source OS&#39;s. Now, there are so many options that I have seen over the years (Rainmeter, PowerToys come to mind). But of course, there&#39;s only so much you are given with a commercial, closed-source product.</p>
+<p>I don&#39;t mind it much for that reason, but it would be nice if her was native support for things that I like on MacOS and Linux (woo) that would be transferred over already. Although, Windows has made much improvements in this area even in the last few years.</p>
+<p>On the Mac side, I notice how fluid I can switch between windows. Windows in comparison, feels clunkier. I always use the spotlight feature, I find that navigating around the OS is decent for the most part and generally do not feel performance issues, as it should because of the price tag of Apple&#39;s machines.</p>
+<p>On Ubuntu, I love how hacky I can get with it, the privacy aspect, and the simplicity as long as I want it to be (or not). Point is, so much can be customized to how I want. There are plenty more positives, but what I said is the shortest explanation why I consider even using it.</p>
+<p>If Microsoft can manage to incorporate changes users have been wanting for a long time, and do it well, it would be great. If not, I want to see what they do to craft what deems their &quot;ideal&quot; OS. I&#39;d say there focus has always been on delivering an all-catch experience out of the box to many types of users.</p>
+<p>With that being said, I gather some thoughts before going .</p>
+<h2 id="initial-thoughts">Initial thoughts</h2>
+<p>My first thoughts before I get to using Windows 11 is that I expect a refreshing look despite the same Windows we&#39;ve come to know and love <del>or not</del>. The brand has become synonymous with what people generally describe our beloved computers.</p>
+<p>Windows 11 seems to have shift away from utilizing the hardware and giving more focus to the cloud. They have surely been making it more known for a while, but now it seems that this is the step needed to take to push cloud storage, intelligence, and machine learning optimizations for the consumer to possibly take advantage of.</p>
+<p>Now, let&#39;s talk about the operating system in question. Granted, I could have done this much sooner, but felt like gathering my thoughts into a cohesive way like I would when using a new system for the first time.</p>
+<h2 id="time-to-install">Time to install</h2>
+<p>Windows 11 officially comes in an image of about 5 GB. Not bad. Installing it took about. The minimum disk space requirement for 11 is 64GB, in comparison to 10&#39;s 20GB. The jump for why this is remains to be seen. But generally, modern operating systems seem to require more of our machines as features become more complex.</p>
+<h2 id="initial-impressions">Initial impressions</h2>
+<h3 id="setup">Setup</h3>
+<p>I&#39;ve got to say, seeing the new Windows setup screen looks refreshing. A side note to this, I feel there are less options to configure compared to previous versions? I do not see Cortana options here, and the usual Microsoft-permissions for you to enable/disable. I do not know why this is, but it&#39;s definitely something strange I noticed right away.</p>
+<h3 id="ui-ux">UI/UX</h3>
+<p>With Windows 11, the OS demands even more from our systems.</p>
+<p>The general consensus seems to be that the UI looks fresh, but so are the transitions and animations. It&#39;s up to users if they want I didn&#39;t mind this but eventually I would probably end up turning them off.</p>
+<h3 id="booting">Booting</h3>
+<p>At startup, I found it to load everything pretty fast. After a while though, I stressed it to load multiple applications at once.</p>
+<h3 id="applications">Applications</h3>
+<p>I found the preinstalled apps to be bearable. Although the app launcher suggests for you to install apps you never heard of before. The good thing is that the store has got good changes.</p>
+<h2 id="the-good">The good</h2>
+<h3 id="design">Design</h3>
+<p>The most apparent of changes to notice. I think the design is clean. Using it makes me feel like its a brand new system while still having the Windows &quot;brand&quot; look.</p>
+<p>Some may not like this Mac-like design. But it holds to good design philosophies and current trends in UI. I think a good amount of users will be pleased with the design changes. And personally for me, I think it looks quite nice.</p>
+<h3 id="tablet-2-in-1-support">Tablet/2-in-1 support</h3>
+<p>The new design changes bode well for devices that have built-in tablet support. The UI feels like its made with this in mind since Windows Ink Workspace is a thing, along with other native tools developed specifically with a tablet in mind. Windows 11 will easily do the job in this department. Especially for their 2-in-1 line of devices.</p>
+<h3 id="directstorage">DirectStorage</h3>
+<p>DirectX has always been a point to bring up when it comes to Windows. The OS has been the go-to source to play titles for modern game development. Windows will still be used by plenty of people who play games, and Microsoft&#39;s optimization for games has always been the go-to for playing pretty much any game that has been published in stores.</p>
+<p>DirectStorage is Microsoft&#39;s main feature to dedicate their portion of development along with their Xbox subsidiary to aid their game support and devs in mind.</p>
+<p>But, there are requirements to take advantage of this feature for it to mean anything. Here is an <a href="https://www.technipages.com/what-is-directstorage-on-windows-11">article</a> that explains this feature in more detail.</p>
+<h3 id="wsl2">WSL2</h3>
+<p>If you want to stick to Windows, but also want to take advantage of the capabilities of GNU/Linux, then WSL2 is an example of native support that is appreciated by anyone that uses the command line extensively. WSL2 is expected to perform great in Windows 11, and I found that to be the case when testing it for myself. Performance for Windows 11 can be found <a href="https://www.realmicentral.com/2021/09/30/130-tests-found-that-the-performance-of-windows-11-wsl-2-is-comparable-to-the-latest-ubuntu-21-10/">here</a>. Although, I mainly do development through VMs and SSH to take advantage of this.</p>
+<h2 id="the-not-so-good">The not-so good</h2>
+<h3 id="tpm-support">TPM Support</h3>
+<p>This is a big deal and not so obvious but could tell as soon as I tried to get it installed in VMware. Windows 11 can only be installed if you meet their system requirements which includes TPM 2.0. This essentially means not every device will be capable of installing Windows 11.</p>
+<h3 id="bugs">Bugs</h3>
+<p>Bugs are always expected. But I found my experience to be less than smooth-sailing. The biggest seem to stem from native programs surprisingly. This included things like system information being shown incorrectly. But a lot of bugs are fixed with updates.</p>
+<h3 id="no-noticeable-improvements-to-performance">No improvements to performance</h3>
+<p>Even testing in a VM, I found resources to be quite high in terms of memory of which I tend to see in all versions of Windows thus far. This would imply to translate to a real install of it. Given my current device is a couple years old, I do not think the resource hogging is what it needs to end up feeling snappy and responsive as much as I would like.</p>
+<h3 id="taskbar-navigation">Taskbar/Navigation</h3>
+<p>While the fresh coat of paint is nice, the functionality of the classic taskbar is less than ideal. Also, I didn&#39;t find the navigation to be difficult to use, but I still thought it wasn&#39;t as intuitive as I would have liked, but it&#39;s still has improvements over 10.</p>
+<p>The main thing with navigation is filtering through the settings. It feels like there is too much yet too little at the same time. These issues could be addressed with more options being given.</p>
+<h2 id="my-not-so-final-thoughts">My (not-so) final thoughts</h2>
+<p>For now, I am good with Windows 10 for a good while. I did the same thing moving from Windows 7 to 8 when it initially came out. Even 8 to 10 but to a less extent.</p>
+<p>Remember when Microsoft said that 10 was going to be the &quot;last&quot; <a href="https://en.wikipedia.org/wiki/Windows_11#Development">operating system</a>. Eventually, Windows users will have to transition after a culmination of security updates and patches, and 11 might not even be the same as Microsoft has proposed to the public. And by we, I mean the market as a whole. But as always, operating systems evolve. And evolution comes for a price of many. </p>
+<p>Is 11 a glorified update to 10? For some, it may seem that way. For myself, I think this update does a lot well for a lot of behind the scenes stuff with the potential be a lot capable for end users. Time will tell what Microsoft will do from the publicity and feedback they have been getting.</p>
+<p>At this time, I don&#39;t give Windows 11 a hard recommendation, but I will say I applaud Microsoft for trying something new. You likely are going to get used to the changes they make unless you plan or are already using another operating system if you don&#39;t end up liking the changes. If you like some of the features mentioned, by all means, use 11 now to take advantage of them or use a VM as I did and try them out that way.</p>
+]]></description>
+</item>
 
 <item>
 <title>Installing and using VMware ESXi</title>
